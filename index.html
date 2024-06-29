@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Detection App</title>
+</head>
+<body>
+  <h1>Object Detection</h1>
+  <div>
+    <p>Upload an image:</p>
+    {{ st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"]) }}
+  </div>
+  <div>
+    <h2>Detected Objects</h2>
+    {{ st.image("", width=700, use_column_width=True) }}
+  </div>
+</body>
+</html>
