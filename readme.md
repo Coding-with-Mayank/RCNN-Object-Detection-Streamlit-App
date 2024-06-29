@@ -9,13 +9,13 @@ A virtual environment isolates project dependencies, preventing conflicts with o
 
 Bash
 
-`   python3 -m venv my_env  # Replace "my_env" with your desired environment name   `
+`   python3 -m venv my_env   `
 
 Activate the virtual environment:
 
 Bash
 
-`   source my_env/bin/activate  # Linux/macOS  my_env\Scripts\activate.bat  # Windows   `
+`   source my_env/bin/activate  
 
 **2\. Install Required Packages:**
 
